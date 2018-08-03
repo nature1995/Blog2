@@ -1,0 +1,24 @@
+{% extends "theme.html" %}
+
+
+{% block content %}
+
+<h2 align="center" >登陆账户</h2>
+
+<form method="POST" action='{% url 'LoginPage' %}' align='center'>
+	{% csrf_token %}
+	用户名：
+	<br>
+	<input type="text" name="用户名">
+	<br>
+	密码：
+	<br>
+	<input type="Password" name="密码">
+	<br>
+	{{ 错误 }}
+	<br>
+	<input class='btn btn-primary' type="submit" value="登陆">
+	<br>
+</form>
+
+{% endblock content %}
