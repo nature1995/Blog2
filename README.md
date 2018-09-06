@@ -1,4 +1,4 @@
-# Nature Personal Web (<a href="www.ranxiaolang.cn" target="_blank">Nature</a>)
+# Nature Personal Web (<a href="http://ranxiaolang.cn" target="_blank">Nature</a>)
 This is a  Personal Web project. The project also uses Django and Tencent Cloud which providing the web platform. 
 
 # Compatibility
@@ -19,6 +19,3 @@ Those modules can be installed using: `pip3 install xxx`.
 It need send a email to gzr2008@vip.qq.com and just can be used for non-business projects.
 
  
-
-
-
